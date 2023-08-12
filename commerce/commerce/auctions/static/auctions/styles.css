@@ -1,0 +1,315 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+}
+
+.parent {
+    background-color: #fbf8f3;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 16.6%);
+    grid-template-rows: 8% 10% auto;
+    grid-template-areas: "nav nav nav nav1 nav1 nav1"
+        "nav4 nav3 nav3 nav3 nav3 nav3"
+        "box box box box box box";
+}
+
+.nav-bar1 {
+    background-color: #b0c1db;
+    color: #2f2e2a;
+    grid-area: nav;
+
+}
+
+.nav-bar2 {
+    grid-area: nav1;
+    background-color: #b0c1db;
+    color: #2f2e2a;
+    display: flex;
+    justify-content: end;
+}
+
+a.nav-link {
+    color: #2f2e2a;
+}
+
+#ul {
+    grid-area: nav3;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9d7d6;
+    color: #2f2e2a;
+}
+
+#ct {
+    grid-area: nav4;
+    display: flex;
+    align-items: center;
+    background-color: #f9d7d6;
+    color: #2f2e2a;
+}
+
+.creat {
+    grid-area: box;
+    width: 80%;
+    margin-left: 3%;
+}
+
+.box-parent {
+    grid-area: box;
+    background-color: #fbf8f3;
+    color: #2f2e2a;
+    display: flex;
+    justify-content: center;
+}
+
+.b-parent {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.box-p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 27rem;
+    width: 18rem;
+    margin: 20px;
+    border: 5px solid #B0C1E9;
+    border-radius: 8px;
+}
+
+#box-info {
+    height: 50%;
+}
+
+.box-in {
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.up {
+    display: flex;
+}
+
+.bid {
+    width: 35%;
+    height: 18%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9d342;
+    color: black;
+    border-radius: 2vh;
+}
+
+.favv {
+    width: 37%;
+    height: 18%;
+}
+
+#input-submit {
+    background-color: #b0c1db;
+    border: 0;
+    border-radius: 2vh;
+    width: 90%;
+}
+
+#img {
+    height: 50%;
+    width: 100%;
+}
+
+.link {
+    color: #2f2e2a;
+}
+
+select#ctgy {
+    background-color: #f9d7d6;
+    border: 0;
+}
+
+.li-parent {
+    grid-area: box;
+    display: flex;
+    background-color: #fbf8f3;
+    color: #2f2e2a;
+}
+
+.li-side1 {
+    width: 50%;
+    height: 100%;
+}
+
+.li-side2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.li-img {
+    height: 100%;
+}
+
+img#li-img {
+    width: 100%;
+    height: 100%;
+}
+
+.li-info {
+    height: 18%;
+    width: 100%;
+    padding-left: 3%;
+}
+
+.li-info3 {
+    height: 165px;
+    width: 100%;
+    padding-left: 3%;
+}
+
+.li-info1 {
+    height: 42%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.info-1 {
+    width: 80%;
+    height: 80%;
+    border-radius: 1em;
+}
+
+.info-2 {
+    display: flex;
+}
+
+.s-bid {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.c-bid {
+    width: 70%;
+}
+
+.a-bid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form#a-bid {
+    width: 85%;
+}
+
+input#a-bid {
+    width: 80%;
+}
+
+.info-3 {
+    overflow: auto;
+    height: 132px;
+    width: 90%;
+    background-color: #fbf8f3;
+}
+
+.cmnt-parent {
+    width: 90%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cmnt {
+    width: 385px;
+    margin-top: 1em;
+    background-color: #ffffff;
+}
+
+#uc {
+    margin-bottom: 0;
+}
+
+#cc {
+    overflow-wrap: anywhere;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.log {
+    grid-area: box;
+    width: 75%;
+    margin-left: 4%;
+}
+
+div#log-in {
+    margin-bottom: 2%;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+    color: black;
+}
+
+.downn {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+}
+
+#p {
+    margin: 0px 0px 5px 0px;
+}
+
+div#link {
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link:hover,
+#link:active {
+    background-color: #fbf8f3;
+}
+
+#bt {
+    background-color: #b0c1db;
+    color: #2f2e2a;
+    border: 0;
+}
+
+.down {
+    margin-top: 10px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    row-gap: 8px;
+}
